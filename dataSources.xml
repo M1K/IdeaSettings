@@ -60,18 +60,18 @@
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:cassandra://data1.incomaker.com:9042/test_incomaker</jdbc-url>
+      <jdbc-url>jdbc:cassandra://data2.incomaker.com:9042/test_incomaker</jdbc-url>
       <driver-properties>
-        <property name="connect_timeout" value="300000" />
+        <property name="connect_timeout" value="100000" />
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Cassandra Dev" uuid="82da1016-4424-442b-9356-714ca12c8f1e">
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:cassandra://data3.incomaker.com:9042/dev_incomaker</jdbc-url>
+      <jdbc-url>jdbc:cassandra://data1.incomaker.com:9042/dev_incomaker</jdbc-url>
       <driver-properties>
-        <property name="connect-timeout" value="180" />
+        <property name="connect-timeout" value="100000" />
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Cassandra Live" read-only="true" uuid="b0835cd3-26bc-434d-aa93-dc3479a07b1b">
@@ -80,7 +80,7 @@
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
       <jdbc-url>jdbc:cassandra://data3.incomaker.com:9042/live_incomaker</jdbc-url>
       <driver-properties>
-        <property name="connect_timeout" value="180" />
+        <property name="connect_timeout" value="100000" />
       </driver-properties>
     </data-source>
     <data-source source="LOCAL" name="Cassandra Local" uuid="5ae1e033-cf85-456a-8602-5febb444db17">
