@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.iml;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.gitignore;.hg;.idea;.mvn;.svn;CVS;__pycache__;_svn;deployment;local-maven-repository;mvnw;mvnw.cmd;nb-configuration.xml;nbactions.xml;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="StoredCredential" type="PLAIN_TEXT" />
+      <mapping ext="mime" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>
