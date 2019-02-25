@@ -1,0 +1,22 @@
+<templateSet group="output">
+  <template name="logd" value="LOGGER.debug(&quot;$EXPR_COPY$: &quot; + $EXPR$);" description="Print string to LOGGER.debug" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;) " defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="loge" value="LOGGER.error(null, $EXPR$);" description="Print string to LOGGER.error" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;) " defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+  <template name="logi" value="LOGGER.info(&quot;$EXPR_COPY$: &quot; + $EXPR$);" description="Print string to LOGGER.info" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;)" defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
+</templateSet>
