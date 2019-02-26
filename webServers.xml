@@ -1,12 +1,6 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="56a796fb-c222-4187-8855-bb3809618329" name="Wildfly 13" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/Wildfly/wildfly-13.0.0.Final/standalone/deployments" accessType="MOUNT" />
-      </webServer>
-      <webServer id="d9ea71b9-3540-41f4-a9bb-63a355bf3c9b" name="Wildfly 10" url="http://localhost">
-        <fileTransfer port="0" mountedRoot="$USER_HOME$/Wildfly/wildfly-10.1.0.Final/standalone/deployments" accessType="MOUNT" />
-      </webServer>
       <webServer id="9434b64d-886c-4e02-a3bd-b78fc3017662" name="Wildfly 14" url="http://localhost">
         <fileTransfer port="0" mountedRoot="$USER_HOME$/Wildfly/wildfly-14.0.1.Final/standalone/deployments" accessType="MOUNT" />
       </webServer>
