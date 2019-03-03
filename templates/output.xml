@@ -19,4 +19,11 @@
       <option name="JAVA_EXPRESSION" value="true" />
     </context>
   </template>
+  <template name="logt" value="LOGGER.trace(&quot;$EXPR_COPY$: {}&quot;, $EXPR$);" description="Print string to LOGGER.debug" toReformat="false" toShortenFQNames="true">
+    <variable name="EXPR" expression="variableOfType(&quot;&quot;) " defaultValue="&quot;expr&quot;" alwaysStopAt="true" />
+    <variable name="EXPR_COPY" expression="escapeString(EXPR)" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+    </context>
+  </template>
 </templateSet>
