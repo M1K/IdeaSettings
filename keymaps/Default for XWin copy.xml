@@ -3,6 +3,10 @@
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
   <action id="CloseActiveTab" />
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="ctrl f4" />
+    <keyboard-shortcut first-keystroke="escape" />
+  </action>
   <action id="CodeCleanup">
     <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
@@ -24,6 +28,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="PasteMultiple" />
+  <action id="QuickJavaDoc">
+    <mouse-shortcut keystroke="alt button2" />
+  </action>
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl l" />
   </action>
