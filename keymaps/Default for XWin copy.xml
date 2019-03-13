@@ -2,6 +2,7 @@
   <action id="BuildArtifact">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
   </action>
+  <action id="ChangesView.UnshelveSilently" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="ctrl q" />
@@ -27,6 +28,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt m" />
   </action>
   <action id="PasteMultiple" />
+  <action id="PublishGroup.Upload">
+    <keyboard-shortcut first-keystroke="ctrl alt u" />
+  </action>
   <action id="QuickJavaDoc">
     <mouse-shortcut keystroke="alt button2" />
   </action>
@@ -36,6 +40,7 @@
   <action id="ShowReformatFileDialog">
     <keyboard-shortcut first-keystroke="ctrl alt l" />
   </action>
+  <action id="ShowUmlDiagramPopup" />
   <action id="Vcs.Log.FocusTextFilter" />
   <action id="Vcs.ReformatCommitMessage" />
   <action id="refactoring.extract.dependency" />
