@@ -1,0 +1,17 @@
+<templateSet group="other">
+  <template name="log" value="private static final org.slf4j.Logger LOGGER = org.slf4j.LoggerFactory.getLogger($CLASS_NAME$.class);" description="slf4j logger" toReformat="true" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="jndi" value="String JNDI = &quot;java:app/incomaker-$MODULE$-1.0-SNAPSHOT/$CLASS_NAME$!$PACKAGE$.$CLASS_NAME_LOCAL$&quot;;" description="Java Naming and Directory Interface" toReformat="true" toShortenFQNames="true">
+    <variable name="MODULE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME" expression="regularExpression(regularExpression(className(), &quot;Local&quot;, &quot;&quot;), &quot;Remote&quot;, &quot;&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="PACKAGE" expression="currentPackage()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CLASS_NAME_LOCAL" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+</templateSet>
