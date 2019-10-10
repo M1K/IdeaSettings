@@ -60,7 +60,7 @@
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:cassandra://data2.incomaker.com:9042/test_incomaker</jdbc-url>
+      <jdbc-url>jdbc:cassandra://dev1.incomaker.com:9042/test_incomaker</jdbc-url>
       <driver-properties>
         <property name="connect_timeout" value="100000" />
       </driver-properties>
@@ -69,7 +69,7 @@
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:cassandra://data1.incomaker.com:9042/dev_incomaker</jdbc-url>
+      <jdbc-url>jdbc:cassandra://dev1.incomaker.com:9042/dev_incomaker</jdbc-url>
       <driver-properties>
         <property name="connect-timeout" value="100000" />
       </driver-properties>
@@ -78,7 +78,7 @@
       <driver-ref>cassandra</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.dbschema.CassandraJdbcDriver</jdbc-driver>
-      <jdbc-url>jdbc:cassandra://data3.incomaker.com:9042/live_incomaker</jdbc-url>
+      <jdbc-url>jdbc:cassandra://data2.incomaker.com:9042/live_incomaker</jdbc-url>
       <driver-properties>
         <property name="connect_timeout" value="100000" />
       </driver-properties>
